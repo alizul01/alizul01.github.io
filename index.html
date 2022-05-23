@@ -41,11 +41,11 @@
                     </div>
                 </div>
                 <div class="w-full self-end px-4 lg:w-1/2">
-                    <div class="mt-10 relative lg:mt-9 lg:right-0">
+                    <div class="mt-10 relative lg:mt-9 lg:right-0" data-tilt transform-style: preserve-3d>
                         <div class="flex">
                             <div class="bg-gradient-to-tr from-secondary to-[#f5af19] hover:scale-105 rounded-full p-2 mx-auto transition-all duration-700 ease-in-out hover:from-primary hover:to-[#2C5364]">
                                 <div class="bg-white p-2 rounded-full ">
-                                    <img class="sm:w-96 sm:h-96 overflow-hidden mx-auto rounded-full bg-primary hover:bg-gradient-to-tr hover:from-secondary hover:to-[#f5af19] transition-all duration-700 ease-in-out" src="src/img/photo.png" alt="">
+                                    <img class="sm:w-96 sm:h-96 overflow-hidden mx-auto rounded-full bg-primary hover:bg-gradient-to-tr hover:from-secondary hover:to-[#f5af19] transition-all duration-700 ease-in-out" src="src/img/photo.png" alt="" transform: translateZ(50px)>
                                 </div>
                             </div>
                         </div>
@@ -102,6 +102,13 @@
         </div>
     </section>
     <!-- About Me End -->
+
+
+    <!-- Script -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <script>
         let app = document.getElementById('app');
