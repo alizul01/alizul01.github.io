@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,500&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700;900&display=swap');
 
 /*
 ! tailwindcss v3.0.24 | MIT License | https://tailwindcss.com
@@ -516,6 +516,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   position: relative;
 }
 
+.top-0{
+  top: 0px;
+}
+
+.left-0{
+  left: 0px;
+}
+
+.z-10{
+  z-index: 10;
+}
+
 .m-1{
   margin: 0.25rem;
 }
@@ -545,16 +557,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: 2.5rem;
 }
 
+.mt-3{
+  margin-top: 0.75rem;
+}
+
 .mt-5{
   margin-top: 1.25rem;
 }
 
 .mr-3{
   margin-right: 0.75rem;
-}
-
-.mt-3{
-  margin-top: 0.75rem;
 }
 
 .block{
@@ -593,12 +605,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 3rem;
 }
 
-.max-w-md{
-  max-width: 28rem;
-}
-
 .max-w-lg{
   max-width: 32rem;
+}
+
+.max-w-md{
+  max-width: 28rem;
 }
 
 .transform{
@@ -619,6 +631,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]){
@@ -674,6 +690,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(254 246 251 / var(--tw-bg-opacity));
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -719,6 +739,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-right: 1rem;
 }
 
+.py-9{
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
+}
+
 .px-3\.5{
   padding-left: 0.875rem;
   padding-right: 0.875rem;
@@ -742,8 +767,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 8rem;
 }
 
-.font-poppins{
-  font-family: Poppins, sans-serif;
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .text-base{
@@ -756,17 +782,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 2.5rem;
 }
 
-.text-lg{
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.font-bold{
+  font-weight: 700;
 }
 
 .font-semibold{
   font-weight: 600;
-}
-
-.font-bold{
-  font-weight: 700;
 }
 
 .font-medium{
@@ -785,14 +806,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.625;
 }
 
-.text-secondary{
-  --tw-text-opacity: 1;
-  color: rgb(255 137 107 / var(--tw-text-opacity));
-}
-
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(76 76 109 / var(--tw-text-opacity));
+}
+
+.text-secondary{
+  --tw-text-opacity: 1;
+  color: rgb(255 137 107 / var(--tw-text-opacity));
 }
 
 .text-slate-600{
@@ -844,6 +865,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .ease-in-out{
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: 'Inter', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -1013,3 +1038,4 @@ Ensure the default browser behavior of the `hidden` attribute.
     line-height: 2.5rem;
   }
 }
+
