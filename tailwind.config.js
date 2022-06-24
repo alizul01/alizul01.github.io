@@ -1,6 +1,6 @@
 module.exports = {
     content: ['./index.html',
-    "/node_modules/flowbite/**/*.js"],
+    "./src/script.js"],
     theme: {
         container: {
             center: true,
